@@ -10,5 +10,5 @@ fn main() {
 
     let order = Order::new(1, product, customer, 1);
 
-    println!("Tota cost: ${}", order.total_bill())
+    println!("Tota cost: ${}", order.total_bill());
 }
